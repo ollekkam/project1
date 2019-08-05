@@ -10,7 +10,7 @@ deploy:
         region: "us-east-2"
         app: "Appala-Project"
         env: "Dev-env"
-        bucket_name: "arn:aws:s3:::elasticbeanstalk-us-east-2-902836866638"
+        bucket_name: "elasticbeanstalk-us-east-2-902836866638"
         bucket_path: "Appala-Project"
         on:
                 branch: master
