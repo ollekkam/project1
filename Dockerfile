@@ -2,7 +2,7 @@ FROM node:alpine
 WORKDIR '/appala'
 COPY ./package.json /appala
 RUN npm install
-COPY . .
+COPY ./ ./
 CMD ["npm", "run", "start"]
 EXPOSE 80
 
